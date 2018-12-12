@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+.App {
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.column {
+width: 60%;
+position: relative;
+display: inline-block;
+/* width: 40%; */
+padding-left: 1rem;
+padding-top: 15%;
+padding-right: 1rem;
+vertical-align: top;
+}
+.column1 {
+width: 60%;
+position: relative;
+display: inline-block;
+/* width: 40%; */
+padding-left: 1rem;
+padding-top: 10%;
+padding-right: 1rem;
+vertical-align: top;
+
+}
+.background {
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .column {
+    width: 80%;
+    padding-top: 30%;
+  }
+}
