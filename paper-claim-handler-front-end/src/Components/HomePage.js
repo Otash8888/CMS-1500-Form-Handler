@@ -29,15 +29,17 @@ class HomePage extends Component {
 
         <MuiThemeProvider>
           <React.Fragment>
-            <FormGroup style={{display: "flex", float: "right"}}>
-              <FormControlLabel
-                control={
-                  <Switch checked={auth} onChange={this.handleChange} aria-label="LoginSwitch" color="primary" />
-                }
-                label={auth ? 'Logout' : 'Login'}
-              />
-            </FormGroup>
-            <AppBar title="CM 1500 FORM" />
+
+            <AppBar title="CM 1500 FORM">
+              <FormGroup style={{display: "flex", float: "right"}}>
+                <FormControlLabel
+                  control={
+                    <Switch checked={auth} onChange={this.handleChange} aria-label="LoginSwitch" color="primary" />
+                  }
+                  label={auth ? 'Logout' : 'Login'}
+                />
+              </FormGroup>
+            </AppBar>
             < MainForm1 />
           </React.Fragment>
         </MuiThemeProvider>
