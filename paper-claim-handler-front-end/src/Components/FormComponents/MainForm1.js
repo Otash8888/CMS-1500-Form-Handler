@@ -130,13 +130,13 @@ class MainForm1 extends React.Component {
 
    getStepContent=(stepIndex)=> {
     switch (stepIndex) {
-      case 0:
-        return (
-          < Test
-          handleNext={this.handleNext}
-          />
-
-        )
+      // case 0:
+      //   return (
+      //     < Test
+      //     handleNext={this.handleNext}
+      //     />
+      //
+      //   )
       case 0:
         return (
           < RecipientInfo page1={page1} mainState={this.state.recipient} open={this.state.recpInfoGenderOpen} handleClosePatGender={this.handleClosePatGender} handleOpenPatGender={this.handleOpenPatGender} handleChangeDropDown={this.handleChangeDropDown} handleChange={this.handleChange}
